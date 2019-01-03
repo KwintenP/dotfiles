@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git yarn docker ng npm osx sudo yarn-autocompletions alias-tips zsh-syntax-highlighting npx zsh-autosuggestions)
+plugins=(git yarn docker ng npm osx sudo yarn-autocompletions alias-tips zsh-syntax-highlighting npx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,6 +97,9 @@ alias kwintenp="cd ~/dev/github/kwintenp"
 alias tvh="cd ~/dev/projects/tvh"
 alias strongbrew="~/dev/github/strongbrewio"
 alias play="~/dev/play"
+
+# config 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # shortcuts development
 alias ys="yarn start"

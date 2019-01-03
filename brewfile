@@ -1,0 +1,36 @@
+
+tap 'caskroom/cask'
+
+# Core Homebrew
+brew 'cmake'
+brew 'docker'
+brew 'gdbm'
+brew 'icu4c'
+brew 'itermocil'
+brew 'jenv'
+brew 'libssh2'
+brew 'maven'
+brew 'mongodb'
+brew 'mono'
+brew 'nginx'
+brew 'nmap'
+brew 'nuget'
+brew 'openssl'
+brew 'pcre'
+brew 'pkg-config'
+brew 'python'
+brew 'python3'
+brew 'readline'
+brew 'rust'
+brew 'sqlite'
+brew 'tree'
+brew 'xz'
+brew 'zsh-syntax-highlighting'
+
+# Cask Apps
+cask 'google-cloud-sdk'
+cask 'java'
+cask 'java8'
+cask 'macdown'
+cask 'vectr'
+
